@@ -1,0 +1,1491 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+
+        <title>Tiezheng Li - Supernova Studio</title>
+
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+        <!-- CSS | bootstrap -->
+        <!-- Credits: http://getbootstrap.com/ -->
+        <link  rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+
+        <!-- CSS | font-awesome -->
+        <!-- Credits: http://fortawesome.github.io/Font-Awesome/icons/ -->
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+
+        <!-- CSS | animate -->
+        <!-- Credits: http://daneden.github.io/animate.css/ -->
+        <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+
+        <!-- CSS | Normalize -->
+        <!-- Credits: http://manos.malihu.gr/jquery-custom-content-scroller -->
+        <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css" />
+
+        <!-- CSS | Colors -->
+        <link rel="stylesheet" type="text/css" href="css/colors/DarkBlue.css" />
+
+        <!-- CSS | Style -->
+        <!-- Credits: http://themeforest.net/user/FlexyCodes -->
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+        <!-- CSS | prettyPhoto -->
+        <!-- Credits: http://www.no-margin-for-errors.com/ -->
+        <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css"/> 
+
+        <!-- CSS | Google Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+        <!-- Favicon 
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon/favicon.ico">-->
+
+        <!--[if IE 7]>
+                <link rel="stylesheet" type="text/css" href="css/icons/font-awesome-ie7.min.css"/>
+        <![endif]-->
+
+        <style>
+            @media only screen and (max-width : 1200px){
+                .resp-vtabs ul.resp-tabs-list {
+                    margin-left: 0 !important;
+                }
+            }
+
+            @media only screen and (max-width : 991px){
+                .resp-vtabs .resp-tabs-container {
+                    margin-left: 13px;
+                }
+            }
+
+            @media only screen and (min-width : 800px) and (max-width : 991px){
+                .resp-vtabs .resp-tabs-container {
+                    width:89%;
+                }
+            }
+
+            @media only screen and (max-width : 800px){
+
+                .widget-profil {
+                    float: none !important;
+                }
+                .resp-vtabs .resp-tabs-container {
+                    width:100%;
+                }
+            }
+
+            .widget-profil {
+                float: left;
+            }
+
+            .resp-vtabs ul.resp-tabs-list {
+                margin-left: 12px;
+            }			
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <!--[if lt IE 7]>
+                <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Laoding page -->
+        <div id="preloader"><div id="spinner"></div></div>
+
+        <!-- .slideshow -->
+        <!--<ul class="cb-slideshow" id="cb_slideshow">
+            <li><span>Image 01</span><div></div></li>
+            <li><span>Image 02</span><div></div></li>
+            <li><span>Image 03</span><div></div></li>
+            <li><span>Image 04</span><div></div></li>
+            <li><span>Image 05</span><div></div></li>
+            <li><span>Image 06</span><div></div></li>
+        </ul> -->
+        <!-- /.slideshow -->  
+
+        <!-- .wrapper --> 
+        <div class="wrapper">
+
+            <!--- .Content --> 
+            <section class="tab-content">
+                <div class="container">
+
+                    <div class="row">
+
+                        <div class="col-md-12">
+
+                            <div class="row">   
+
+
+                                <div class="col-md-3 widget-profil">
+                                    <div class="row">
+
+                                        <!-- Profile Image -->
+                                        <div class="col-lg-12 col-md-12 col-sm-3 col-xs-12 ">
+
+                                            <div class="image-holder one" id="pic_prof_1"  style="display:none">
+
+                                                <img class="head-image up circle" src="images/head/head.jpg" width="150" height="150" alt="" />
+                                                <img class="head-image up-left circle" src="images/head/head.jpg" width="150" height="150" alt="" />
+                                                <img class="head-image left circle" src="images/head/head.jpg" width="150" height="150" alt="" />
+                                                <img class="head-image down-left circle" src="images/head/head.jpg" width="150" height="150" alt="" />
+                                                <img class="head-image down circle" src="images/head/head.jpg" width="150" height="150" alt="" />
+                                                <img class="head-image down-right circle" src="images/head/head.jpg" width="150" height="150" alt="" />
+                                                <img class="head-image right circle" src="images/head/head.jpg" width="150" height="150" alt="" />
+                                                <img class="head-image up-right circle" src="images/head/head.jpg" width="150" height="150" alt="" />
+                                                <img class="head-image front circle" src="images/head/head.jpg" width="150" height="150" alt="" />
+
+                                            </div>
+
+                                            <!-- style for simple image profile -->		
+                                            <div class="circle-img" id="pic_prof_2"></div>
+
+                                        </div>
+                                        <!-- End Profile Image -->
+
+                                        <div class="col-lg-12 col-md-12 col-sm-9 col-xs-12">
+
+                                            <!-- Profile info -->
+                                            <div id="profile_info">
+                                                <h1 id="name" class="transition-02">Tiezheng Li</h1>
+                                                <h4 class="line">PROGRAMMER &AMP; WEB DESIGNER ENTREPRENEUR</h4>
+                                                <h6><span class="fa fa-map-marker"></span> Beijing , China</h6>
+                                            </div>
+                                            <!-- End Profile info -->  
+
+
+                                            <!-- Profile Description -->
+                                            <div id="profile_desc">
+                                                <p>
+                                                    I am devoted to be a versatile person, a professional engineering leader who understand the technical, economic, and social issues of technology, and create innovative and robust software systems.  
+                                                </p>
+                                            </div>
+                                            <!-- End Profile Description -->  
+
+
+                                            <!-- Name -->
+                                            <div id="profile_social">
+                                                <h6>My Social Profiles</h6>
+                                                <a href="http://www.renren.com/267220918/profile"><i class="fa fa-renren"></i></a>
+                                                <a href="http://a1.qpic.cn/psb?/V10FqfA10bILFw/jYMpHbwrU2bz7DgSfch*kx3oc9.bu5hHzbI1wm21Dko!/b/dIvX13TiPQAA&ek=1&kp=1&pt=0&bo=AAIAAgAAAAABACc!&sce=0-12-12&rf=viewer_311"><i class="fa fa-wechat"></i></a>
+                                                <a href="http://www.linkedin.com/profile/view?id=357897319"><i class="fa fa-linkedin"></i></a>
+                                                <a href="https://plus.google.com/+%E6%9D%8E%E9%93%81%E5%B3%A5"><i class="fa fa-google-plus"></i></a>
+                                                <a href="https://github.com/LeeTZ"><i class="fa fa-github"></i></a>
+                                                <div class="clear"></div>
+                                            </div>
+                                            <!-- End Name -->  
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-md-9 flexy_content" style="padding-left: 0;padding-right: 0;">
+
+                                    <!-- verticalTab menu -->
+                                    <div id="verticalTab">
+
+                                        <ul class="resp-tabs-list">
+                                            <li class="tabs-profile hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a profile" data-tab-name="profile">			
+                                                <span class="tite-list">profile</span>
+                                                <i class="fa fa-user icon_menu icon_menu_active"></i>
+                                            </li>
+
+                                            <li class="tabs-resume hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="resume"> 
+                                                <span class="tite-list">resume</span>
+                                                <i class="fa fa-tasks icon_menu"></i>
+                                            </li>
+
+                                            <li class="tabs-portfolio hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="portfolio"> 
+                                                <span class="tite-list">portfolio</span>
+                                                <i class="fa fa-briefcase icon_menu"></i>
+                                            </li>
+
+                                            <li class="tabs-activity hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="activity">
+                                                <span class="tite-list">activity</span>
+                                                <i class="fa fa-flag icon_menu"></i>
+                                            </li>
+
+                                            <li class="tabs-blog hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="blog">
+                                                <span class="tite-list">news</span>
+                                                <i class="fa fa-bullhorn icon_menu"></i>
+                                            </li>
+
+                                            <li class="tabs-contact hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="contact" style="margin-bottom: 48px !important;"> 
+                                                <span class="tite-list">contact</span>
+                                                <i class="fa fa-envelope icon_menu"></i> 
+                                            </li>
+
+                                            <!--a href="#" id="print"><i class="fa fa-print icon_print"></i> </a-->
+                                            <a href="files/CV_Tiezheng_Li.pdf" id="downlowd"><i class="fa fa-download icon_print"></i> </a>
+
+                                        </ul>
+                                        <!-- /resp-tabs-list -->
+
+                                        <!-- resp-tabs-container --> 
+                                        <div class="resp-tabs-container">
+
+                                            <!-- profile -->
+                                            <div id="profile" class="content_2">
+                                                <!-- .title -->
+                                                <h1 class="h-bloc">Profile - About Me</h1>
+
+                                                <div class="row top-p">
+                                                    <div class="col-md-6 profile-l">
+
+                                                        <!--About me-->
+                                                        <div class="title_content">
+                                                            <div class="text_content">Tiezheng Li</div>
+                                                            <div class="clear"></div>
+                                                        </div>
+
+                                                        <ul class="about">
+
+                                                            <li>
+                                                                <i class="glyphicon glyphicon-calendar"></i>
+                                                                <label>Date of birth</label>
+                                                                <span class="value">May 13, 1992</span>
+                                                                <div class="clear"></div>
+                                                            </li>
+
+                                                            <li> 
+                                                                <i class="glyphicon glyphicon-map-marker"></i>
+                                                                <label>Address</label>
+                                                                <span class="value">Haidian Dist., Beijing, China</span>
+                                                                <div class="clear"></div>
+                                                            </li>
+
+                                                            <li>
+                                                                <i class="glyphicon glyphicon-envelope"></i>
+                                                                <label>Email</label>
+                                                                <span class="value">litiezheng513@gmail.com</span>
+                                                                <div class="clear"></div>
+                                                            </li>
+
+                                                            <li>
+                                                                <i class="glyphicon glyphicon-phone"></i>
+                                                                <label>Phone</label>
+                                                                <span class="value">+86 188-1031-1397</span>
+                                                                <div class="clear"></div>
+                                                            </li>
+
+                                                            <li>
+                                                                <i class="glyphicon glyphicon-globe"></i>
+                                                                <label>Website</label>
+                                                                <span class="value"><a href="#" target="_blank">www.supernovachina.com</a></span>
+                                                                <div class="clear"></div>
+                                                            </li>
+
+                                                        </ul>
+
+
+                                                        <p style="margin-bottom:20px">
+                                                            <i class="fa fa-quote-left"></i>       
+                                                            National Olympaid in Informatics &amp; Beijing Challenge Cup Winner, directly admitted into Dept. CS at Tsinghua University. Received top scholarship twice in three years. Four years of developing experience with internship at Microsoft &amp; Tecent. Founder of Supernova Studio. 
+
+                                                        </p>
+
+                                                        <p style="margin-bottom:20px">
+                                                            <i class="fa fa-quote-left"></i>       
+                                                            Mathematics enthusiasts.<br/>
+                                                            Soccer player, centre-forward.<br/>
+                                                            Serious amateur of video shotting&amp;post-production.<br/>
+                                                            Fond of Chinese literature and poems.
+                                                        </p>
+
+                                                    </div>
+                                                    <!-- End left-wrap -->
+
+                                                    <div class="col-md-6 profile-r">
+
+                                                        <div class="cycle-slideshow">
+                                                            <img src="images/head/slide1.jpg" alt="" />
+                                                            <img src="images/head/slide2.jpg" alt="" />
+                                                            <img src="images/head/slide3.jpg" alt="" />
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="clear"></div>
+
+
+                                                <div class="row" id="services">
+                                                    <div class="col-md-12">
+                                                        <div class="title_content">
+                                                            <div class="text_content">My Speciality</div>
+                                                            <div class="clear"></div>
+                                                        </div>
+
+
+                                                        <div class="col-md-4 pack-service">
+                                                            <div class="service">
+                                                                <div class="service-icon"><i class="fa fa-file-code-o"></i></div>
+                                                                <div class="service-detail">
+                                                                    <h6>Programming</h6>
+                                                                    <p>Solid CS background. Interested in Vision and Artificial Intelligence. Capable of building software, mobile apps &amp; websites.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4 pack-service">
+                                                            <div class="service">
+                                                                <div class="service-icon"><i class="fa fa-pencil-square-o"></i></div>
+                                                                <div class="service-detail">
+                                                                    <h6>Design&amp; Promotion</h6>
+                                                                    <p>Skilled in front-end developing and creation of images, animation and videos. Familiar with interaction and user experience design theory.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4 pack-service">
+                                                            <div class="service">
+                                                                <div class="service-icon"><i class="fa fa-users"></i></div>
+                                                                <div class="service-detail">
+                                                                    <h6>Project Planning</h6>
+                                                                    <p>Rich project experiences. Have innovative ideas and could carefully control of team , time &amp;resources</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div> 
+                                                </div><!-- End Services -->
+
+                                                <div class="clear"></div>
+
+                                            </div>
+                                            <!-- End .profile -->
+
+                                            <!-- .resume -->
+                                            <div id="resume" class="content_2">
+                                                <!-- .title -->
+                                                <h1 class="h-bloc">Resume - Personal Info</h1> 
+
+                                                <div class="row">
+                                                    <!-- .resume-right -->
+                                                    <div class="col-md-6 resume-left" >
+
+                                                        <!-- .download_resume -->
+                                                        <a class="download" style="margin:0;float: left;" href="files/CV_Tiezheng_Li.pdf">
+                                                            <span data-hover="Download My Resume"><i class="glyphicon glyphicon-download-alt"></i> Download My Resume</span>
+                                                        </a>
+                                                        <!-- /.download_resume -->
+                                                         <!-- .title_content -->
+                                                        <div class="title_content ">
+                                                            <div class="text_content">Education</div>
+                                                            <div class="clear"></div>
+                                                        </div>
+                                                        <!-- /.title_content -->
+                                    
+                                                        <!-- .attributes -->
+                                                        <ul class="attributes">
+                                                            <li class="first">
+                                                                <h5>Bechlor of Engineering <span class="duration"><i class="fa fa-calendar color"></i> Aug 2011 - Jul 2015</span></h5>
+                                                                <h6><span class="fa fa-book"></span>Tsinghua University</h6>
+                                                                <p>Major in Computer Science and Technology. <br/>
+                                                                Overall GPA 91/100, <br/>
+                                                                Junior year GPA 94.5/100,  Ranking 3/123</p>
+                                                            </li>
+                                                            <li>
+                                                                <h5>Visiting Scholar <span class="duration"><i class="fa fa-calendar color"></i> Jun 2014 - Aug 2014</span></h5>
+                                                                <h6><span class="fa fa-book"></span>University of Southern California</h6>
+                                                                <p>Researched with Prof.Ulrich Neumann at Computer Graphic and Immersive Technology (CGIT) Lab, Viterbi School of Engineering.</p>
+                                                            </li>
+                                                        </ul>
+                                                        <!-- /.attributes -->
+                                                        <br>  
+
+
+                                                         <!-- .title_content -->
+                                                        <div class="title_content">
+                                                            <div class="text_content">Academic Experience</div>
+                                                            <div class="clear"></div>
+                                                        </div>
+                                                        <!-- /.title_content -->
+
+                                                        <!-- .attributes -->
+                                                        <ul class="attributes">
+                                                            <li class="first">
+                                                                <h5>Corrosion Detection System <span class="duration"><i class="fa fa-calendar color"></i>2014</span></h5>
+                                                                <h6><span class="fa fa-book"></span>Advised by Ulrich Neumann, USC</h6>
+                                                                <p>Conducted experiments to measure the effectiveness of texture, color and wavelet features extracted from images in predicting corrosion.</p>
+                                                                <p>Applied machine learning algorithms and implemented a corrosion detecting system using BP network, reached an accuracy of 90% for corrosion classification.</p>
+                                                                <p>Presented results and reports on a poster session among 40 summer programs</p>
+                                                            </li>
+                                                            <li>
+                                                                <h5>Real-time Speaker Recognition System  <span class="duration"><i class="fa fa-calendar color"></i>2013</span></h5>
+                                                                <h6><span class="fa fa-book"></span>Advised by Mingxing XU,THU</h6>
+                                                                <p>(Team work) Designed and developed a real-time speaker recognition system with GUI, which extracts MFCC and LPC features from utterance and classifies voices by a pre-trained CRBM.</p>
+                                                                <p>Optimized GMM algorithm performance to 19 times faster than scikit-learn package. Reached an average recognition accuracy of 95% on offline corpus of 100 different speakers.</p>
+                                                            </li>
+                                                            <li>
+                                                                <h5>Web Service Integration Platform  <span class="duration"><i class="fa fa-calendar color"></i>2013</span></h5>
+                                                                <h6><span class="fa fa-book"></span>Advised by Maosong SUN, THU</h6>
+                                                                <p>(Team work) Proposed a novel approach - graphical programming - to integrate heterogeneous web services. Blocky creates connections among services, like building up Lego blocks, by conditional or loop statements of different API, automatically finishes user-defined task queue and shares data among services without complex coding work.</p>
+                                                                <p>Won First Prize (less than 10%) in Technology Challenge Cup of Beijing among more than 600 projects. Research paper published in Student Journal of Tsinghua University</p>
+                                                            </li>
+                                                        </ul>
+                                                        <!-- /.attributes -->
+                                                        <br>  
+
+
+                                                        <!-- .title_content -->
+                                                        <div class="title_content" style="float: none;">
+                                                            <div class="text_content">Programming Skills</div>
+                                                            <div class="clear"></div>
+                                                        </div>
+                                                        <!-- /.title_content -->
+
+                                                        <div class="skills">
+                                                            <!-- .skillbar -->
+                                                            <div class="skillbar clearfix" data-percent="85%">
+                                                                <div class="skillbar-title"><span>C++</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">85%</div>
+                                                            </div>
+                                                            <!-- /.skillbar -->
+
+                                                            <!-- .skillbar -->
+                                                            <div class="skillbar clearfix" data-percent="65%">
+                                                                <div class="skillbar-title"><span>C#</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">65%</div>
+                                                            </div>
+                                                            <!-- /.skillbar -->
+
+                                                            <!-- .skillbar -->
+                                                            <div class="skillbar clearfix" data-percent="90%">
+                                                                <div class="skillbar-title"><span>Python</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">90%</div>
+                                                            </div>
+                                                            <!-- /.skillbar -->
+
+                                                            <!-- .skillbar -->
+                                                            <div class="skillbar clearfix" data-percent="95%">
+                                                                <div class="skillbar-title"><span>JavaScript</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">95%</div>
+                                                            </div>
+                                                            <!-- /.skillbar --> 
+
+                                                            <!-- .skillbar -->
+                                                            <div class="skillbar clearfix" data-percent="75%">
+                                                                <div class="skillbar-title"><span>Java</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">75%</div>
+                                                            </div>
+                                                            <!-- /.skillbar --> 
+
+                                                            <!-- .skillbar -->
+                                                            <div class="skillbar clearfix" data-percent="85%">
+                                                                <div class="skillbar-title"><span>Ruby</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">85%</div>
+                                                            </div>
+                                                            <!-- /.skillbar --> 
+
+                                                            <!-- .skillbar -->
+                                                            <div class="skillbar clearfix" data-percent="80%">
+                                                                <div class="skillbar-title"><span>Matlab</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">80%</div>
+                                                            </div>
+                                                            <!-- /.skillbar --> 
+                                                        </div>
+                                                       
+
+                                                    </div>
+                                                    <!-- /.resume-right -->
+
+
+
+                                                    <!-- .resume-left -->
+                                                    <div class="col-md-6 resume-left">    
+                                                          <!-- .title_content -->
+                                                        <div class="title_content" style="margin-top:38px;">
+                                                            <div class="text_content">Awards</div>
+                                                            <div class="clear"></div>
+                                                        </div>
+                                                        <!-- /.title_content -->
+
+                                                        <!-- .attributes -->
+                                                        <ul class="attributes">
+                                                            <li class="first">
+                                                                <h5>Zhong Shi-mo Scholarship <span class="duration"><i class="fa fa-calendar color"></i>2014 &amp; 2012</span></h5>
+                                                                <h6><span class="fa fa-trophy"></span>Dept of Computer Science,Tsinghua U</h6>
+                                                                <p>Top scholarship in department.</p>
+                                                            </li>
+                                                            <li>
+                                                                <h5>CSC-IBM Scholarship <span class="duration"><i class="fa fa-calendar color"></i> 2014</span></h5>
+                                                                <h6><span class="fa fa-trophy"></span> IBM Company</h6>
+                                                                <p>For strong background in Computer Science.</p>
+                                                            </li>
+                                                            <li>
+                                                                <h5>Excellent Student Award<span class="duration"><i class="fa fa-calendar color"></i>2013</span></h5>
+                                                                <h6><span class="fa fa-trophy"></span>China Computer Federation</h6>
+                                                                <p>Only 100 student nationwide.</p>
+                                                            </li>
+                                                            <li>
+                                                                <h5>First Prize in Beijing Challenge Cup<span class="duration"><i class="fa fa-calendar color"></i>2012</span></h5>
+                                                                <h6><span class="fa fa-trophy"></span>Beijing Association for science and technology</h6>
+                                                                <p>As member of project "Blockly".</p>
+                                                            </li>
+
+                                                        </ul>
+                                                        <!-- /.attributes -->
+                                                        <br>  
+
+
+
+                                                        <!-- .title_content -->
+                                                        <div class="title_content" style="margin-bottom:5px">
+                                                            <div class="text_content">Work Experience</div>
+                                                            <div class="clear"></div>
+                                                        </div>
+                                                        <!-- /.title_content -->
+
+                                                        <!-- .attributes -->
+                                                        <ul class="attributes">
+                                                            <li class="first">
+                                                                <h5>Software Engineer <span class="duration"><i class="fa fa-calendar color"></i> 2014 - 2015</span></h5>
+                                                                <h6><span class="fa fa-briefcase"></span> Microsoft China</h6>
+                                                                <p>Working on a novel augmented reality platform for virtual fitting to enhance the experience of shopping. Researched state-of-the-art deep learning approaches and designed the module detecting and fitting human shoulder using convolutional neural network.</p>
+                                                            </li>
+                                                            <li>
+                                                                <h5>Research Intern <span class="duration"><i class="fa fa-calendar color"></i> 2012</span></h5>
+                                                                <h6><span class="fa fa-briefcase"></span> Tecent-Tsinghua Computer Graphics Lab</h6>
+                                                                <p>Working on PatchNet, a patch based representation for interactive library-driven image editing.</p>
+                                                            </li>
+
+                                                        </ul>
+                                                        <!-- /.attributes -->
+                                                        <br>
+
+                                                        <!-- .title_content -->
+                                                        <div class="title_content">
+                                                            <div class="text_content">Startup Experience</div>
+                                                            <div class="clear"></div>
+                                                        </div>
+                                                        <!-- /.title_content -->
+
+                                                        <!-- .attributes -->
+                                                        <ul class="attributes">
+                                                            <li class="first">
+                                                                <h5>Blockly  <span class="duration"><i class="fa fa-calendar color"></i> 2012 - 2013</span></h5>
+                                                                <h6><span class="fa fa-briefcase"></span> Supernova Studio</h6>
+                                                                <p> Sponsored by National Training Programs of Innovation and Entrepreneurship for Undergraduates.</p>
+                                                            </li>
+                                                            <li>
+                                                                <h5>Expedition  <span class="duration"><i class="fa fa-calendar color"></i> 2012 - 2014</span></h5>
+                                                                <h6><span class="fa fa-briefcase"></span> Supernova Studio</h6>
+                                                                <p>A traditional Chinese style RPG with dialogue lines of 300,000+ words and playing time of 20+ hours.Won Gold Prize of summer practice in department as the most creative one ever. Reported by CTV and XinWenHua newspaper in Changchun</p>
+                                                            </li>
+                                                        </ul>
+                                                        <!-- /.attributes -->
+                                                        <br>  
+                                                                                                                <!-- .title_content -->
+                                                        <div class="title_content" style="float: none; margin-top:2px;">
+                                                            <div class="text_content">Designs skills</div>
+                                                            <div class="clear"></div>
+                                                        </div>
+                                                        <!-- /.title_content -->
+
+                                                        <div class="skills">
+                                                            <!-- .skillbar -->
+                                                            <div class="skillbar clearfix" data-percent="95%">
+                                                                <div class="skillbar-title"><span>HTML/CSS</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">95%</div>
+                                                            </div>
+                                                            <!-- /.skillbar -->
+                                                            <div class="skillbar clearfix" data-percent="85%">
+                                                                <div class="skillbar-title"><span>Photoshop</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">85%</div>
+                                                            </div>
+
+                                                            <!-- .skillbar -->
+                                                            <div class="skillbar clearfix" data-percent="80%">
+                                                                <div class="skillbar-title"><span>Illustrateur</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">80%</div>
+                                                            </div>
+                                                            <!-- /.skillbar -->
+
+                                                            <!-- .skillbar -->
+                                                            <div class="skillbar clearfix" data-percent="95%">
+                                                                <div class="skillbar-title"><span>Premiere</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">95%</div>
+                                                            </div>
+                                                            <!-- /.skillbar -->
+
+
+                                                            <!-- .skillbar -->
+                                                            <div class="skillbar clearfix" data-percent="90%">
+                                                                <div class="skillbar-title"><span>After Effects</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">90%</div>
+                                                            </div>
+                                                            <!-- /.skillbar -->
+
+                                                            <!-- .skillbar -->
+                                                            <div class="skillbar clearfix" data-percent="55%">
+                                                                <div class="skillbar-title"><span>Flash</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">55%</div>
+                                                            </div>
+                                                            <!-- /.skillbar -->
+                                                            <!-- .skillbar -->
+                                                            <div class="skillbar clearfix" data-percent="35%">
+                                                                <div class="skillbar-title"><span>Maya</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">35%</div>
+                                                            </div>
+                                                            <!-- /.skillbar -->
+                                                        </div>       
+
+                                                    </div>
+                                                    <!-- /.resume-left -->
+                                                </div>
+
+                                          
+                                            </div>
+                                            <!-- End .resume -->
+
+                                            <!-- .portfolio -->
+                                            <div id="portfolio" class="content_2">
+                                                <!-- .title -->
+                                                <h1 class="h-bloc">Portfolio - My Works</h1>
+
+                                                <!-- .container-portfolio -->
+                                                <div class="container-portfolio">
+
+                                                    <!-- #filters -->
+                                                    <ul id="filters" class="clearfix">
+                                                        <li><span class="filter active" data-filter="catWeb catGraphic logo">All</span></li>
+                                                        <li><span class="filter" data-filter="catWeb">Web Design</span></li>
+                                                        <li><span class="filter" data-filter="catGraphic">Software &amp; Systems</span></li>
+                                                        <li><span class="filter" data-filter="logo">Research</span></li>
+                                                    </ul>
+                                                    <!-- /#filters -->
+
+                                                    <!-- #portfoliolist -->
+                                                    <div id="portfoliolist">
+
+                                                        <!-- .portfolio -->
+                                                        <div class="portfolio logo" data-cat="logo">	
+                                                            <!-- .portfolio-wrapper -->
+                                                            <div class="portfolio-wrapper">		
+                                                                <a href="images/projects/imgcor.jpg" rel="portfolio" title="In this research I observe the connection between metallic corrosion characteristics and parameters calculated from image.Select and compare the effectiveness of different approaches and build a system of recognition of corrosion images based on machine learning algorithm.">
+                                                                    <img src="images/projects/imgcor.jpg" alt="Image Corrosion Detection" />
+                                                                    <div class="label">
+                                                                        <div class="label-text">
+                                                                            <a class="text-title">Image Corrosion Detection System</a>
+                                                                            <span class="text-category">Machine Learning and Vision</span>
+                                                                        </div>
+                                                                        <div class="label-bg"></div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <!-- /.portfolio-wrapper -->
+                                                        </div>		
+                                                        <!-- /.portfolio -->
+
+
+                                                        <!-- .portfolio -->
+                                                        <div class="portfolio catGraphic" data-cat="catGraphic">
+                                                            <!-- .portfolio-wrapper -->
+                                                            <div class="portfolio-wrapper">			
+                                                                <a href="http://js.tudouui.com/bin/player2/olc_8.swf?iid=219807004&swfPath=http://js.tudouui.com/bin/lingtong/SocialPlayer_143.swf&tvcCode=-1&tag=%E7%A7%91%E6%8A%80&title=%E7%A7%AF%E6%9C%A8%E4%BA%91-%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1%E6%95%B4%E5%90%88%E5%B9%B3%E5%8F%B0&mediaType=vi&totalTime=149860&hdType=1&hasPassword=0&nWidth=-1&isOriginal=0&channelId=21&nHeight=-1&banPublic=false&videoOwner=54645530&videoOwner=54645530&ocode=qdjk1aDZolo&tict=3&channelId=21&cs=&k=%E7%A7%91%E6%8A%80&panelRecm=http://css.tudouui.com/bin/lingtong/PanelRecm_9.swz&panelDanmu=http://css.tudouui.com/bin/lingtong/PanelDanmu_18.swz&panelEnd=http://css.tudouui.com/bin/lingtong/PanelEnd_13.swz&pepper=http://css.tudouui.com/bin/binder/pepper_17.png&panelShare=http://css.tudouui.com/bin/lingtong/PanelShare_7.swz&panelCloud=http://css.tudouui.com/bin/lingtong/PanelCloud_12.swz&hasWaterMark=0&autoPlay=false&listType=0&rurl=&resourceId=54645530_04_05_99&rpid=54645530&autostart=false&snap_pic=http%3A%2F%2Fg1.tdimg.com%2Fd6d5646e23e4e9db524c17a752c21895%2Fw_2.jpg&code=PyWWejFOla0&aopRate=0.001&p2pRate=0.95&adSourceId=81000&yjuid=null&yseid=1420694715402hH0qvn&yseidtimeout=1420701958111&yseidcount=4&uid=54645530&juid=0199q5m0bk2gp4&vip=0" rel="portfolio" title="A web service intergration platform. Grand Prize of Tsinghua Technology Challenge Cup.">
+                                                                    <img src="images/projects/blockly.jpg" alt="Blockly" />
+                                                                    <div class="label">
+                                                                        <div class="label-text">
+                                                                            <a class="text-title">Blockly</a>
+                                                                            <span class="text-category">Web Service Integration Platform</span>
+                                                                        </div>
+                                                                        <div class="label-bg"></div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <!-- /.portfolio-wrapper -->
+                                                        </div>				
+                                                        <!-- /.portfolio -->
+
+                                                        <!-- .portfolio -->
+                                                        <div class="portfolio catWeb" data-cat="catWeb">    
+                                                            <!-- .portfolio-wrapper -->
+                                                            <div class="portfolio-wrapper">     
+                                                                <a href="http://js.tudouui.com/bin/player2/olc_8.swf?iid=219806935&swfPath=http://js.tudouui.com/bin/lingtong/SocialPlayer_143.swf&tvcCode=-1&tag=%E7%A7%91%E6%8A%80&title=Sopaper&mediaType=vi&totalTime=73280&hdType=3&hasPassword=0&nWidth=-1&isOriginal=0&channelId=21&nHeight=-1&banPublic=false&videoOwner=54645530&videoOwner=54645530&ocode=qdjk1aDZolo&tict=3&channelId=21&cs=&k=%E7%A7%91%E6%8A%80&panelRecm=http://css.tudouui.com/bin/lingtong/PanelRecm_9.swz&panelDanmu=http://css.tudouui.com/bin/lingtong/PanelDanmu_18.swz&panelEnd=http://css.tudouui.com/bin/lingtong/PanelEnd_13.swz&pepper=http://css.tudouui.com/bin/binder/pepper_17.png&panelShare=http://css.tudouui.com/bin/lingtong/PanelShare_7.swz&panelCloud=http://css.tudouui.com/bin/lingtong/PanelCloud_12.swz&hasWaterMark=0&autoPlay=false&listType=0&rurl=&resourceId=54645530_04_05_99&rpid=54645530&autostart=false&snap_pic=http%3A%2F%2Fg4.tdimg.com%2F25a9f3e75bc3a388bd03d2c69e00f564%2Fw_2.jpg&code=44u_lozIzck&aopRate=0.001&p2pRate=0.95&adSourceId=81000&yjuid=null&yseid=1420646416324yQz3c0&yseidtimeout=1420656518014&yseidcount=3&uid=54645530&juid=0199q5m0bk2gp4&vip=0" rel="portfolio" title="A novel academic search engine.">
+                                                                    <img src="images/projects/sopaper.jpg" alt="Sopaper" />
+                                                                    <div class="label">
+                                                                        <div class="label-text">
+                                                                            <a class="text-title">Sopaper</a>
+                                                                            <span class="text-category">Academic Search Engine</span>
+                                                                        </div>
+                                                                        <div class="label-bg"></div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <!-- /.portfolio-wrapper -->
+                                                        </div>      
+                                                        <!-- /.portfolio -->
+
+
+                                                        <!-- .portfolio -->
+                                                        <div class="portfolio catGraphic" data-cat="catGraphic">
+                                                            <!-- .portfolio-wrapper -->
+                                                            <div class="portfolio-wrapper">			
+                                                                <a href="images/projects/armcpu.jpg" rel="portfolio" title="CPU based on standard 32-bit MIPS instruction set on FPGA, along with an operation system with user-mode applications and external hardware (VGA, ps/2 keyboard) support.">
+                                                                    <img src="images/projects/armcpu.jpg" alt="ARM-CPU" />
+                                                                    <div class="label">
+                                                                        <div class="label-text">
+                                                                            <a class="text-title">ARM-CPU</a>
+                                                                            <span class="text-category">System</span>
+                                                                        </div>
+                                                                        <div class="label-bg"></div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <!-- /.portfolio-wrapper -->
+                                                        </div>	
+                                                        <!-- /.portfolio -->
+
+                                                        <!-- .portfolio -->
+                                                        <div class="portfolio logo" data-cat="logo">
+                                                            <!-- .portfolio-wrapper -->
+                                                            <div class="portfolio-wrapper">
+                                                                <a href="images/projects/speaker.jpg" title="A real-time speaker recognition system with GUI, which extracts MFCC and LPC features from utterance and classifies voices by a pre-trained CRBM." rel="portfolio">
+                                                                    <img src="images/projects/speaker.jpg" alt="Real-time Speaker Recognition System" />
+                                                                    <div class="label">
+                                                                        <div class="label-text">
+                                                                            <a class="text-title">Real-time Speaker Recognition System</a>
+                                                                            <span class="text-category">Machine Learning &amp; Signal Processing</span>
+                                                                        </div>
+                                                                        <div class="label-bg"></div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <!-- /.portfolio-wrapper -->
+                                                        </div>	
+                                                        <!-- /.portfolio -->
+
+                                                        <!-- .portfolio -->
+                                                        <div class="portfolio catWeb" data-cat="catWeb">
+                                                            <!-- .portfolio-wrapper -->
+                                                            <div class="portfolio-wrapper">		
+                                                                <a href="images/projects/cardmaster.jpg" rel="portfolio" title="A HTML5 Card Game Platform where game can be generated through XML rule files">				
+                                                                    <img src="images/projects/cardmaster.jpg" alt="CardMaster" />
+                                                                    <div class="label">
+                                                                        <div class="label-text">
+                                                                            <a class="text-title">CardMaster</a>
+                                                                            <span class="text-category">HTML5 Game Center</span>
+                                                                        </div>
+                                                                        <div class="label-bg"></div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <!-- /.portfolio-wrapper -->
+                                                        </div>	
+                                                        <!-- /.portfolio -->
+                                                       
+                                                        <!-- .portfolio -->
+                                                        <div class="portfolio catGraphic" data-cat="catGraphic">
+                                                            <!-- .portfolio-wrapper -->
+                                                            <div class="portfolio-wrapper"> 
+                                                                <a href="http://js.tudouui.com/bin/player2/olc_8.swf?iid=220102959&swfPath=http://js.tudouui.com/bin/lingtong/SocialPlayer_144.swf&tvcCode=-1&tag=%E7%A7%91%E6%8A%80&title=%E7%A3%8A%E8%90%BD%E9%9D%92%E8%A1%AB&mediaType=vi&totalTime=113820&hdType=1&hasPassword=0&nWidth=-1&isOriginal=0&channelId=10&nHeight=-1&banPublic=false&videoOwner=54645530&videoOwner=54645530&ocode=qdjk1aDZolo&tict=3&channelId=10&cs=&k=%E7%A7%91%E6%8A%80&panelRecm=http://css.tudouui.com/bin/lingtong/PanelRecm_9.swz&panelDanmu=http://css.tudouui.com/bin/lingtong/PanelDanmu_18.swz&panelEnd=http://css.tudouui.com/bin/lingtong/PanelEnd_13.swz&pepper=http://css.tudouui.com/bin/binder/pepper_17.png&panelShare=http://css.tudouui.com/bin/lingtong/PanelShare_7.swz&panelCloud=http://css.tudouui.com/bin/lingtong/PanelCloud_12.swz&hasWaterMark=0&autoPlay=false&listType=0&rurl=&resourceId=54645530_04_05_99&rpid=54645530&autostart=false&snap_pic=http%3A%2F%2Fg4.tdimg.com%2F091a4ca764927ae315e5e64d5c88eb7d%2Fw_2.jpg&code=pK2m2Ny984A&aopRate=0.001&p2pRate=0.95&adSourceId=81000&yjuid=null&yseid=1420949903304MbRhuo&yseidtimeout=1420957801516&yseidcount=2&uid=54645530&juid=019badtjunkak&vip=0" title="A traditional Chinese style RPG. With dialogue lines of 300,000+ words and playing time of 20+ hours" rel="portfolio">
+                                                                    <img src="images/projects/llqs.jpg" alt="Expedition" />
+                                                                    <div class="label">
+                                                                        <div class="label-text">
+                                                                            <a class="text-title">Expedition(Lei Luo Qing Shan)</a>
+                                                                            <span class="text-category">Role-playing Game</span>
+                                                                        </div>
+                                                                        <div class="label-bg"></div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <!-- /.portfolio-wrapper -->
+                                                        </div>  
+                                                        <!-- /.portfolio -->
+
+                                                        <!-- .portfolio -->
+                                                        <div class="portfolio catGraphic" data-cat="catGraphic">
+                                                            <!-- .portfolio-wrapper -->
+                                                            <div class="portfolio-wrapper">		
+                                                                <a href="images/projects/raytracing.jpg" title="Ray-tracer with global illumination and soft shadow, rendering a 3D scene with mesh models" rel="portfolio">				
+                                                                    <img src="images/projects/raytracing.jpg" alt="Ray-tracer" />
+                                                                    <div class="label">
+                                                                        <div class="label-text">
+                                                                            <a class="text-title">Ray Trace Engine</a>
+                                                                            <span class="text-category">Computer Graphics</span>
+                                                                        </div>
+                                                                        <div class="label-bg"></div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <!-- /.portfolio-wrapper -->
+                                                        </div>
+                                                        <!-- /.portfolio -->
+
+                                                        <!-- .portfolio -->
+                                                        <div class="portfolio catWeb" data-cat="catWeb">
+                                                            <!-- .portfolio-wrapper -->
+                                                            <div class="portfolio-wrapper">		
+                                                                <a href="images/projects/whattoask.jpg" rel="portfolio" title="An online Q&amps;A community">
+                                                                    <img src="images/projects/whattoask.jpg" alt="Whattoask" />
+                                                                    <div class="label">
+                                                                        <div class="label-text">
+                                                                            <a class="text-title">What to ask</a>
+                                                                            <span class="text-category">Online Q&amps;A Community</span>
+                                                                        </div>
+                                                                        <div class="label-bg"></div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <!-- /.portfolio-wrapper -->
+                                                        </div>	
+                                                        <!-- /.portfolio -->
+
+                                                        <!-- .portfolio -->
+                                                        <div class="portfolio catGraphic" data-cat="catGraphic">
+                                                            <!-- .portfolio-wrapper -->
+                                                            <div class="portfolio-wrapper">			
+                                                                <a href="http://js.tudouui.com/bin/player2/olc_8.swf?iid=220102700&swfPath=http://js.tudouui.com/bin/lingtong/SocialPlayer_144.swf&tvcCode=-1&tag=%E7%A7%91%E6%8A%80&title=%E5%BE%AE%E8%81%94&mediaType=vi&totalTime=189890&hdType=3&hasPassword=0&nWidth=-1&isOriginal=0&channelId=21&nHeight=-1&banPublic=false&videoOwner=54645530&videoOwner=54645530&ocode=qdjk1aDZolo&tict=3&channelId=21&cs=&k=%E7%A7%91%E6%8A%80&panelRecm=http://css.tudouui.com/bin/lingtong/PanelRecm_9.swz&panelDanmu=http://css.tudouui.com/bin/lingtong/PanelDanmu_18.swz&panelEnd=http://css.tudouui.com/bin/lingtong/PanelEnd_13.swz&pepper=http://css.tudouui.com/bin/binder/pepper_17.png&panelShare=http://css.tudouui.com/bin/lingtong/PanelShare_7.swz&panelCloud=http://css.tudouui.com/bin/lingtong/PanelCloud_12.swz&hasWaterMark=0&autoPlay=false&listType=0&rurl=&resourceId=54645530_04_05_99&rpid=54645530&autostart=false&snap_pic=http%3A%2F%2Fg1.tdimg.com%2F10cff2c425b1c3537ee1c6acf6ad5dbc%2Fw_2.jpg&code=Ey9k8S8hyPo&aopRate=0.001&p2pRate=0.95&adSourceId=81000&yjuid=null&yseid=1420949903304MbRhuo&yseidtimeout=1420957742052&yseidcount=2&uid=54645530&juid=019badtjunkak&vip=0" title="An iOS contact list app" rel="portfolio">
+                                                                    <img src="images/projects/weilian.jpg" alt="Weilian" />
+                                                                    <div class="label">
+                                                                        <div class="label-text">
+                                                                            <a class="text-title">Wei Lian</a>
+                                                                            <span class="text-category">iOS app</span>
+                                                                        </div>
+                                                                        <div class="label-bg"></div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <!-- /.portfolio-wrapper -->
+                                                        </div>	
+                                                        <!-- /.portfolio -->
+
+
+
+                                                        <!-- .portfolio -->
+                                                        <div class="portfolio catGraphic" data-cat="catGraphic">
+                                                            <!-- .portfolio-wrapper -->
+                                                            <div class="portfolio-wrapper">	
+                                                                <a href="images/projects/naolisha.jpg" title="A Sanguosha-like board game with a online pc client" rel="portfolio">
+                                                                    <img src="images/projects/naolisha.jpg" alt="Naolisha" />
+                                                                    <div class="label">
+                                                                        <div class="label-text">
+                                                                            <a class="text-title">Naoli Sha</a>
+                                                                            <span class="text-category">Board Game</span>
+                                                                        </div>
+                                                                        <div class="label-bg"></div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <!-- /.portfolio-wrapper -->
+                                                        </div>	
+                                                        <!-- /.portfolio -->
+
+                                                        <!-- .portfolio -->
+                                                        <div class="portfolio catWeb" data-cat="catWeb">
+                                                            <!-- .portfolio-wrapper -->
+                                                            <div class="portfolio-wrapper">
+                                                                <a href="images/projects/soundmap.jpg" title="City Sound Map is a brand that aims to improve lifestyles in big cities, as the increasing sound pollution has having an impact on citizens health. The app allow users to visualise cities sound and noise in terms of quality and loudness." rel="portfolio">
+                                                                    <img src="images/projects/soundmap.jpg" alt="Soundmap" />
+                                                                    <div class="label">
+                                                                        <div class="label-text">
+                                                                            <a class="text-title">SoundMap</a>
+                                                                            <span class="text-category">Web Design</span>
+                                                                        </div>
+                                                                        <div class="label-bg"></div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <!-- /.portfolio-wrapper -->
+                                                        </div>	
+                                                        <!-- /.portfolio -->
+
+                                                        <!-- .portfolio -->
+                                                        <div class="portfolio catWeb" data-cat="catWeb">
+                                                            <!-- .portfolio-wrapper -->
+                                                            <div class="portfolio-wrapper">
+                                                                <a href="images/projects/jinjiu.jpg" rel="portfolio">
+                                                                    <img src="images/projects/jinjiu.jpg" alt="Jinjiu" />
+                                                                    <div class="label">
+                                                                        <div class="label-text">
+                                                                            <a class="text-title">Jinjiu</a>
+                                                                            <span class="text-category">A Company Web Design</span>
+                                                                        </div>
+                                                                        <div class="label-bg"></div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <!-- /.portfolio-wrapper -->
+                                                        </div>  
+                                                        <!-- /.portfolio -->
+
+                                                        <div class="clear"></div>
+
+                                                    </div>
+                                                    <!-- #portfoliolist -->
+                                                </div>
+                                                <!-- /.container-portfolio -->
+                                            </div>
+                                            <!-- End .portfolio -->
+
+
+                                    
+
+                                            <!-- Begin .activity -->
+                                            <div id="activity" class="content_2">
+                                                <!-- .title -->
+                                                <h1 class="h-bloc">Life - Extracurricular Activities</h1>
+
+                                                <div class="row top-p">
+                                                    <div class="col-md-6 profile-l">
+
+                                                        <!--About me-->
+                                                        <div class="title_content">
+                                                            <div class="text_content">Student Societies</div>
+                                                            <div class="clear"></div>
+                                                        </div>
+
+                                                        <!-- .attributes -->
+                                                        <ul class="attributes">
+                                                            <li class="first">
+                                                                <h5>Director of Publicity Center <span class="duration"><i class="fa fa-calendar color"></i> 2014 - 2015</span></h5>
+                                                                <p>Leading teams of journal, design and video. Take charge of all publicity in department.</p>
+                                                            </li>
+                                                            <br>
+                                                            <li>
+                                                                <h5>Vice President of Student Union <span class="duration"><i class="fa fa-calendar color"></i> 2013 - 2014</span></h5>
+                                                                <p>Take charge of publicity, easpecially videos.</p>
+                                                            </li>
+                                                            <br>
+                                                            <li>
+                                                                <h5>Siyuan 11 Member <span class="duration"><i class="fa fa-calendar color"></i> 2012 - 2015</span></h5>
+                                                                <p>Aimed to develop student leadership and practical ability, only 36 candidates were selected in university.</p>
+                                                            </li>
+                                                            <br>
+                                                            <li>
+                                                                <h5>Class Monitor <span class="duration"><i class="fa fa-calendar color"></i> 2011 - 2012</span></h5>
+                                                                <p>Class was honored "Class with excellent learning spirit","Class with excellent performance in innovation activities" and "Class with excellent performance in publicity".</p>
+                                                            </li>
+                                                        </ul>
+                                                        <!-- /.attributes -->
+                                                    </div>
+                                                    <!-- End left-wrap -->
+                                                    <div class="col-md-6 profile-r">
+                                                        <div class="cycle-slideshow">
+                                                            <img src="images/projects/stu1.jpg" alt="" />
+                                                            <img src="images/projects/stu2.jpg" alt="" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="clear"></div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="title_content">
+                                                        <div class="text_content">Movies &amp; Short Videos</div>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                    <p style="margin-bottom:20px">
+                                                        <i class="fa fa-quote-left"></i>       
+                                                            I am a serious amatuer of movie and post-production. I have made some videos as director or editor. Currently I am sorting and uploading my work. You may enjoy them here later ;)
+                                                    </p>
+                                                    </div>
+                                                    
+                                                </div>
+
+                                            </div>
+                                            <!-- End .activity -->
+
+
+
+
+
+
+                                            <!-- .blog -->
+                                            <div id="blog" class="content_2">
+                                                <h1 class="h-bloc">News - About My Studio</h1>
+
+                                                <div class="col-md-12">
+                                                    <div class="row">
+
+                                                        <!-- Page Blog -->
+                                                        <div class="col-md-12" id="blog_page">
+
+                                                <!-- client reference -->
+                                                <div class="row">
+                                                    <div class="col-md-6">   
+                                                        <div class="reference clearfix"> 
+
+                                                            <!-- .title_content -->
+                                                            <div class="title_content" style="margin-bottom:5px">
+                                                                <div class="text_content">Team Member</div>
+                                                                <div class="clear"></div>
+                                                            </div>
+                                                            <!-- /.title_content -->
+                                                            <ul>
+                                                                <li class="clearfix">
+                                                                    <img src="images/team/lyh.jpg" class="img_reference" width="100" height="100" alt="">
+                                                                    <br><span class="staffname">Yunhao Li</span><br>
+                                                                    <span>Co-founder, Designer</span>
+                                                                </li>
+                                                                <li class="clearfix">
+                                                                    <img src="images/team/cfz.jpg" class="img_reference" width="100" height="100" alt="">
+                                                                    <br><span class="staffname">Fangzhou Cao</span><br>
+                                                                    <span>Planner</span>
+                                                                </li>
+                                                                <li class="clearfix">
+                                                                    <img src="images/team/jk.jpg" class="img_reference" width="100" height="100" alt="">
+                                                                    <br><span class="staffname">Kai Jia</span><br>
+                                                                    <span>Honorary Advisor</span>
+                                                                </li>
+                                                                <li class="clearfix">
+                                                                    <img src="images/team/zxy.jpg" class="img_reference" width="100" height="100" alt="">
+                                                                    <br><span class="staffname">Xinyu Zhou</span><br>
+                                                                    <span>Program Consultant</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">   
+                                                        <div class="reference clearfix" style="margin-top:50px;"> 
+                                                            <ul>
+                                                                <li class="clearfix">
+                                                                    <img src="images/team/wyx.jpg" class="img_reference" width="100" height="100" alt="">
+                                                                    <br><span class="staffname">Yuxin Wu</span><br>
+                                                                    <span>Chief Programmer</span>
+                                                                </li>
+                                                                <li class="clearfix">
+                                                                    <img src="images/team/zyk.jpg" class="img_reference" width="100" height="100" alt="">
+                                                                    <br><span class="staffname">Yikai Zhao</span><br>
+                                                                    <span>Partner</span>
+                                                                </li>
+                                                                <li class="clearfix">
+                                                                    <img src="images/team/ljw.jpg" class="img_reference" width="100" height="100" alt="">
+                                                                    <br><span class="staffname">Jiawen Liang</span><br>
+                                                                    <span>Programmer, Designer</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div style="clear: both"></div>   
+                                                </div>
+                                                <br>
+                                                <br>
+                                                           <!-- start Page Blog -->
+                                                            <section id="blog-page">
+
+                                                                <!-- Post 1 -->	
+                                                                <article id="post-1" class="blog-article">                    
+
+                                                                    <div class="col-md-12">
+
+                                                                        <div class="row">
+
+                                                                            <div class="col-md-12 post_media">
+                                                                                <div class="post-format-icon">
+                                                                                    <a href="#" class="item-date"><span class="fa fa-picture-o"></span></a>
+                                                                                </div>
+                                                                                <div class="media">
+                                                                                    <div class="he-wrap tpl2">
+                                                                                        <div id="carousel-1" class="carousel slide" data-ride="carousel">
+
+                                                                                            <ol class="carousel-indicators">
+                                                                                                <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                                                                                                <li data-target="#carousel-1" data-slide-to="1"></li>
+                                                                                                <li data-target="#carousel-1" data-slide-to="2"></li>
+                                                                                            </ol>
+
+                                                                                            <div class="carousel-inner">
+
+                                                                                                <div class="item active">
+                                                                                                    <img src="images/studio/logo.jpg" alt="" />
+                                                                                                    <div class="carousel-caption">
+                                                                                                        <h4>Studio Logo</h4>
+                                                                                                        <p>A bright and sharp supernova.Isn't it cool?</p>
+                                                                                                    </div>
+                                                                                                </div>
+
+
+                                                                                                <div class="item">
+                                                                                                    <img src="images/studio/logo2.jpg" alt="" />
+                                                                                                    <div class="carousel-caption">
+                                                                                                        <h4>Studio Logo2</h4>
+                                                                                                        <p>The spirit of Supernova, passion, conviction, innovation</p>
+                                                                                                    </div>
+                                                                                                </div>
+
+                                                                                                <div class="item">
+                                                                                                    <img src="images/studio/t-shirt.jpg" alt="" />
+                                                                                                    <div class="carousel-caption">
+                                                                                                        <h4>Studio T-shirt</h4>                    
+                                                                                                    </div>
+                                                                                                </div>
+
+                                                                                            </div>
+
+                                                                                            <a class="left carousel-control" href="#carousel-1" data-slide="prev">
+                                                                                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                                                                            </a>
+
+                                                                                            <a class="right carousel-control" href="#carousel-1" data-slide="next">
+                                                                                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                                                                            </a>
+
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="row">
+                                                                            <div class="col-md-12 post_content">
+                                                                                <div class="content post_format_standart">
+                                                                                    <div class="top_c ">
+
+                                                                                        <div class="title_content">
+                                                                                            <div class="text_content"><a href="#post-1" class="read_more">Studio Logo &amp; T-shirt Released</a></div>
+                                                                                            <div class="clear"></div>
+                                                                                        </div>
+
+                                                                                        <ul class="info">                                                                                            
+                                                                                            <li><i class="glyphicon glyphicon-time"></i> April 9, 2012</li>
+                                                                                            <li><i class="glyphicon glyphicon-user"></i> by Tiezheng Li</li>
+                                                                                            <li><i class="glyphicon glyphicon-tag"></i> logo, t-shirt, design</li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </div>	
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </article>
+                                                                <!-- End Post 1 -->
+
+                                                                <div class="clear"></div>
+
+                                                                <!-- Post 2 -->
+                                                                <article id="post-2" class="blog-article">                    
+
+                                                                    <div class="col-md-12">
+
+                                                                        <div class="row">
+
+                                                                            <div class="row">
+
+                                                                            <div class="col-md-12 post_media">
+                                                                                <div class="post-format-icon">
+                                                                                    <a href="#" class="item-date"><span class="fa fa-pencil-o"></span></a>
+                                                                                </div>
+                                                                                <div class="media">
+                                                                                    <div class="he-wrap tpl2">
+                                                                                        <div id="carousel-2" class="carousel slide" data-ride="carousel">
+
+                                                                                            <ol class="carousel-indicators">
+                                                                                                <li data-target="#carousel-2" data-slide-to="0" class="active"></li>
+                                                                                                <li data-target="#carousel-2" data-slide-to="1"></li>
+                                                                                                <li data-target="#carousel-2" data-slide-to="2"></li>
+                                                                                                <li data-target="#carousel-2" data-slide-to="3"></li>
+                                                                                                <li data-target="#carousel-2" data-slide-to="4"></li>
+                                                                                            </ol>
+
+                                                                                            <div class="carousel-inner">
+
+                                                                                                <div class="item active">
+                                                                                                    <img src="images/studio/openday1.jpg" alt="" />
+                                                                                                </div>
+                                                                                                <div class="item">
+                                                                                                    <img src="images/studio/openday2.jpg" alt="" />
+                                                                                                </div>
+                                                                                                <div class="item">
+                                                                                                    <img src="images/studio/openday3.jpg" alt="" />
+                                                                                                </div>
+                                                                                                <div class="item">
+                                                                                                    <img src="images/studio/openday4.jpg" alt="" />
+                                                                                                </div>
+                                                                                                <div class="item">
+                                                                                                    <img src="images/studio/openday5.jpg" alt="" />
+                                                                                                </div>
+
+                                                                                            </div>
+
+                                                                                            <a class="left carousel-control" href="#carousel-2" data-slide="prev">
+                                                                                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                                                                            </a>
+
+                                                                                            <a class="right carousel-control" href="#carousel-2" data-slide="next">
+                                                                                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        </div>
+
+                                                                        <div class="row">
+                                                                            <div class="col-md-12 post_content">
+                                                                                <div class="content post_format_standart">
+                                                                                    <div class="top_c ">
+
+                                                                                        <div class="title_content">
+                                                                                            <div class="text_content"><a href="#post-2" class="read_more">Studio Open Day!</a></div>
+                                                                                            <div class="clear"></div>
+                                                                                        </div>
+
+                                                                                        <ul class="info">                                                                                           
+                                                                                            <li><i class="glyphicon glyphicon-time"></i> January 20, 2014</li>
+                                                                                            <li><i class="glyphicon glyphicon-user"></i> by Yunhao Li and Tiezheng Li</li>
+                                                                                            <li><i class="glyphicon glyphicon-tag"></i> game test, intern recruitment</li>
+                                                                                        </ul>
+                                                                                        <div class="blog-content">
+                                                                                            <p><i class="fa fa-quote-left"></i> The new Supernova Studio address is Rm. 907, Bldg. A, 7655 Renmin Street, Chaoyang District, Changchun, Jilin Province, 130000, P.R.China. On January 20, 2014, studio is opened to the public for its hitting product Expedition(Lei Luo Qing Shan)'s test. Enjoy the happy atmosphere!</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>	                                                                               
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </article>
+                                                                <!-- End Post 2 -->
+
+                                                                <div class="clear"></div>
+
+                                                                <!-- Post 3 -->
+                                                                <article id="post-3" class="blog-article">                    
+                                                                    <div class="col-md-12">
+                                                                        <div class="row">
+                                                                            <div class="col-md-12 post_media">
+                                                                                <div class="post-format-icon">
+                                                                                    <a href="#" class="item-date"><span class="fa fa-picture-o"></span></a>
+                                                                                </div>
+                                                                                <div class="media">
+                                                                                    <div class="he-wrap tpl2">
+                                                                                        <div id="carousel-3" class="carousel slide" data-ride="carousel">
+
+                                                                                            <ol class="carousel-indicators">
+                                                                                                <li data-target="#carousel-3" data-slide-to="0" class="active"></li>
+                                                                                                <li data-target="#carousel-3" data-slide-to="1"></li>
+                                                                                                <li data-target="#carousel-3" data-slide-to="2"></li>
+                                                                                                <li data-target="#carousel-3" data-slide-to="3"></li>
+                                                                                            </ol>
+
+                                                                                            <div class="carousel-inner">
+
+                                                                                                <div class="item active">
+                                                                                                    <img src="images/studio/photo1.jpg" alt="" />                                                                               
+                                                                                                </div>
+                                                                                                <div class="item">
+                                                                                                    <img src="images/studio/photo2.jpg" alt="" />
+                                                                                                </div>
+                                                                                                <div class="item">
+                                                                                                    <img src="images/studio/photo3.jpg" alt="" />
+                                                                                                </div>
+                                                                                                <div class="item">
+                                                                                                    <img src="images/studio/photo4.jpg" alt="" />
+                                                                                                </div>
+
+                                                                                            </div>
+
+                                                                                            <a class="left carousel-control" href="#carousel-3" data-slide="prev">
+                                                                                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                                                                            </a>
+
+                                                                                            <a class="right carousel-control" href="#carousel-3" data-slide="next">
+                                                                                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                                                                            </a>
+
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="row">
+                                                                            <div class="col-md-12 post_content">
+                                                                                <div class="content post_format_standart">
+                                                                                    <div class="top_c ">
+
+                                                                                        <div class="title_content">
+                                                                                            <div class="text_content"><a href="#post-3" class="read_more">Group Photos Collection</a></div>
+                                                                                            <div class="clear"></div>
+                                                                                        </div>
+
+                                                                                        <ul class="info">
+                                                                                            <li><i class="glyphicon glyphicon-time"></i> January 11, 2015</li>
+                                                                                            <li><i class="glyphicon glyphicon-user"></i> by All Staff</li>
+                                                                                            <li><i class="glyphicon glyphicon-tag"></i> group photos</li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </div>	
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </article>
+
+                                                                <!-- End Post 3 -->
+                                                            </section>
+                                                            <!-- End Page Blog -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <!-- End .blog -->
+
+                                            <!-- .contact -->
+                                            <div id="contact" class="content_2">
+                                                <h1 class="h-bloc">Contact - Contact Me</h1>
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <div id="map"></div>
+                                                    </div>  
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <div>
+                                                                    <!--<h3 class="main-heading"><span>Contact info</span></h3>-->
+
+                                                                    <div class="title_content" style="float: none;">
+                                                                        <div class="text_content">Contact info</div>
+                                                                        <div class="clear"></div>
+                                                                    </div>
+
+                                                                    <ul>
+                                                                        <li><span class="span-info"><i class="glyphicon glyphicon-map-marker"></i> Mailing Address:</span> Room 505B, Zijing Building 2#, Tsinghua University, Beijing, China<br /></li>
+                                                                        <li><span class="span-info"><i class="glyphicon glyphicon-envelope"></i> Email:</span> litiezheng513@gmail.com</li>
+                                                                        <li><span class="span-info"><i class="glyphicon glyphicon-phone"></i> Phone:</span> +86 188-1031-1397</li>
+                                                                        <li><span class="span-info"><i class="glyphicon glyphicon-globe"></i> Website:</span> www.supernovachina.com</li>
+                                                                    </ul>
+                                                                </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End .contact -->
+
+                                        </div>
+                                        <!-- End #resp-tabs-container --> 
+
+                                    </div><!-- End verticalTab -->
+
+                                </div><!-- End flexy_content -->
+
+
+                            </div><!-- End row -->
+
+                        </div><!-- End col-md-12 -->
+
+                    </div><!-- End row -->
+
+                </div><!-- End container -->
+
+            </section>
+            <!-- End Content -->
+
+        </div>
+        <!-- End wrapper -->
+
+
+        <!-- jquery | jQuery 1.11.0 -->
+        <!-- Credits: http://jquery.com -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+
+        <!-- Js | bootstrap -->
+        <!-- Credits: http://getbootstrap.com/ -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script> 
+
+        <!-- Js | jquery.cycle -->
+        <!-- Credits: https://github.com/malsup/cycle2 -->
+        <script type="text/javascript" src="js/jquery.cycle2.min.js"></script>
+
+        <!-- jquery | rotate and portfolio -->
+        <!-- Credits: http://jquery.com -->
+        <script type="text/javascript" src="js/jquery.mixitup.min.js"></script> 
+        <script type="text/javascript" src="js/HeadImage.js"></script>
+
+        <!-- Js | easyResponsiveTabs -->
+        <!-- Credits: http://webtrendset.com/demo/easy-responsive-tabs/Index.html -->
+        <script type="text/javascript" src="js/easyResponsiveTabs.min.js"></script> 	
+
+        <!-- Js | mCustomScrollbar -->
+        <!-- Credits: http://manos.malihu.gr/jquery-custom-content-scroller -->
+        <script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>		
+
+        <!-- jquery | prettyPhoto -->
+        <!-- Credits: http://www.no-margin-for-errors.com/ -->
+        <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+
+        <!-- Js | gmaps -->
+        <!-- Credits: http://maps.google.com/maps/api/js?sensor=true-->
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+        <script type="text/javascript" src="js/gmaps.min.js"></script>
+
+        <!-- Js | Js -->
+        <!-- Credits: http://themeforest.net/user/FlexyCodes -->
+        <script type="text/javascript" src="js/main.js"></script>
+
+        <!-- code js for image rotate -->
+        <script type="text/javascript">
+
+            var mouseX;
+            var mouseY;
+            var imageOne;
+
+            /* Calling the initialization function */
+            $(init);
+
+            /* The images need to re-initialize on load and on resize, or else the areas
+             * where each image is displayed will be wrong. */
+            $(window).load(init);
+            $(window).resize(init);
+
+            /* Setting the mousemove event caller */
+            $(window).mousemove(getMousePosition);
+
+            /* This function is called on document ready, on load and on resize
+             * and initiallizes all the images */
+            function init() {
+
+                /* Instanciate the mouse position variables */
+                mouseX = 0;
+                mouseY = 0;
+
+                /* Instanciate a HeadImage class for every image */
+                imageOne = new HeadImage("one");
+
+            }
+
+            /* This function is called on mouse move and gets the mouse position. 
+             * It also calls the HeadImage function to display the correct image*/
+            function getMousePosition(event) {
+
+                /* Setting the mouse position variables */
+                mouseX = event.pageX;
+                mouseY = event.pageY;
+
+                /*Calling the setImageDirection function of the HeadImage class
+                 * to display the correct image*/
+                imageOne.setImageDirection();
+
+            }
+
+        </script>
+
+
+        <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </body>
+</html>
